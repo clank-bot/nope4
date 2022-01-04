@@ -1,0 +1,19 @@
+canvas{
+    border-style: bold ;
+    border-color: aquamarine;
+    border-width: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow:2px 2px 30px purple;}
+    to {box-shadow: 2px 2px 30px orange;}
+}
+h3{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: slategray;
+}
